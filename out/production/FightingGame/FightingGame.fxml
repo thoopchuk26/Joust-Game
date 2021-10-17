@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane fx:id="Anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Game">
+   <center>
+      <Pane fx:id="Space" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="274.0" layoutY="157.0" mnemonicParsing="false" onAction="#play" text="Play" />
+            <Button layoutX="274.0" layoutY="217.0" mnemonicParsing="false" onAction="#info" text="Info" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
